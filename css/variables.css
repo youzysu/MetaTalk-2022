@@ -1,3 +1,5 @@
 :root {
-    --metaColor: #5CA7FA
+    --metaColor: #5CA7FA;
+    --horizontalSpace: 30px;
+    --myGray: rgba(128, 128, 128, 0.831);
 }

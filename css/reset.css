@@ -45,3 +45,16 @@ table {
 input:focus {
 	outline: none;
 }
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}  
+
+.main-screen {
+    padding: var(--horizontalSpace);
+}

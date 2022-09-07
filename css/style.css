@@ -1,13 +1,17 @@
-/* Components */
-@import "components/status-bar.css";
-
-/* Screens */
-@import "screens/login.css";
-
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;600;800&family=Work+Sans:wght@300&display=swap');
 @import "reset.css";
 @import "variables.css";
 
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/friends.css";
+@import "components/user-component.css";
+
+/* Screens */
+@import "screens/login.css";
+
 body {
-    font-family: 'Work Sans', sans-serif;
+    height: 150vh;
 }
