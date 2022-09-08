@@ -1,6 +1,7 @@
 .user-component {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .user-component__column {
@@ -21,7 +22,8 @@
 }
 
 .user-component__profile--xl {
-    width: 80px; height: 80px;
+    width: 90px; height: 90px;
+    border-radius: 40px;
 }
 
 .user-component__profile--sm {
@@ -37,6 +39,23 @@
     color: var(--myGray);
 }
 
-.user-component {
-    margin-top: 20px;
+.user-component__subtext {
+    margin-top: 5px;
+}
+
+.user-component__time {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.badge {
+    display: flex;
+}
+
+.user-component__subtext {
+    margin-top: 8px;
+}
+
+.user-component__name {
+    font-weight: 600;
 }

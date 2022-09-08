@@ -14,25 +14,13 @@
     position: relative;
 }
 .nav__noti {
-    background-color: tomato;
-    display: flex;
-    width: 25px; height: 25px;
-    border-radius: 15px;
     position: absolute;
     left: 15px;
     bottom: 15px;
-    color: white;
-    justify-content: center;
-    align-items: center;
 }
 
 .nav__plus {
-    display: flex;
-    width: 6px; height: 6px;
-    border-radius: 5px;
-    background-color: tomato;
     position: absolute;
     left: 30px;
     bottom: 27px;
 }
-
